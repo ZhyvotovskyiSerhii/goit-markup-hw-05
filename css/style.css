@@ -133,6 +133,10 @@ img {
   padding-bottom: 32px;
   padding-top: 32px;
 }
+.menu .menu-page:hover,
+.menu .menu-page:focus {
+  color: var(--accent-color);
+}
   .menu .link:hover,
   .menu .link:focus {
   color: var(--accent-color);
@@ -297,6 +301,23 @@ img {
     flex-basis: calc((100% - 120px) / 4);
 
   }
+  .overlay-description {
+    position: relative;
+  }
+    .overlay-photo {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--other-color);
+    text-align: center;
+    width: 370px;
+    height: 70px;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    background-color: rgba(47, 48, 58, 0.8);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
 
   .advantages-title {
     font-style: normal;
@@ -358,7 +379,9 @@ img {
     letter-spacing: 0.03em;
     color: var(--color-contacts);
     text-align: center;
+    margin-bottom: 16px;
   }
+  
 
   .worker {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -375,7 +398,7 @@ img {
 
   .worker-card {
     border-radius: 0px 0px 4px 4px;
-    
+    background: #FFFFFF;
   }
   .team-descr {
     padding-right: 10px;
