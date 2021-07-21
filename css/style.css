@@ -104,13 +104,13 @@ img {
 }
   .active::after {
     content: ' ';
+    position: absolute;
     display: block;
     background-color: var(--accent-color);
     width: 100%;
     height: 4px;
     border-radius: 2px;
-    margin-top: 26px;
-    position: absolute;
+    margin-top: 28px;
   }
   .site-navigation:hover::after,
   .site-navigation:focus::after {
@@ -401,14 +401,15 @@ img {
     background: #FFFFFF;
   }
   .team-descr {
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
     box-sizing: border-box;
     border-left: 1px solid var(--card-border-color);
     border-bottom: 1px solid var(--card-border-color);
     border-right: 1px solid var(--card-border-color);
     padding-bottom: 30px;
     padding-top: 30px;
+    text-align: center;
   }
   .team-spec {
     display: flex;
@@ -439,7 +440,7 @@ img {
   
 .social-list {
   display: flex;
-  align-items: center;
+  justify-content: center;
 }
 
 .social-link {
