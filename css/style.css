@@ -111,7 +111,6 @@ img {
     border-radius: 2px;
     margin-top: 26px;
     position: absolute;
-    bottom: -34px;
   }
   .site-navigation:hover::after,
   .site-navigation:focus::after {
@@ -123,7 +122,6 @@ img {
   height: 4px;
   border-radius: 2px;
   margin-top: 28px;
-  bottom: -34px;
 }
   .menu .menu-page {
   color: var(--title-color);
@@ -132,6 +130,8 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em; 
   text-decoration: none;
+  padding-bottom: 32px;
+  padding-top: 32px;
 }
   .menu .link:hover,
   .menu .link:focus {
